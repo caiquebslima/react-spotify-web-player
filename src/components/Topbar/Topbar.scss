@@ -1,0 +1,47 @@
+.topbar {
+  background: #121212;
+  position: absolute;
+  right: 0;
+  left: 230px;
+  top: 0;
+  height: 60px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  &__nav button {
+    padding: 5px;
+    color: #fff;
+  }
+  &__action button {
+    border-radius: 23px;
+    height: 32px;
+    min-width: 32px;
+    border: 0;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    &:hover {
+      background: #505050;
+    }
+    figure {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      margin: 0;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+    span {
+      padding: 0 5px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}
