@@ -1,3 +1,5 @@
+import ArrowLeft from '../../icons/ArrowLeft';
+import ArrowRight from '../../icons/ArrowRight';
 import './Topbar.scss';
 
 export default function Topbar() {
@@ -5,36 +7,10 @@ export default function Topbar() {
     <div className='topbar'>
       <nav className='topbar__nav'>
         <button id='left'>
-          <svg
-            role='img'
-            focusable='false'
-            height='24'
-            width='24'
-            viewBox='0 0 24 24'
-            class='Svg-sc-1usfroi-0 jUuLJy _6fe5d5efc9b4a07d5c424071ac7cdacb-scss'
-          >
-            <polyline
-              points='16 4 7 12 16 20'
-              fill='none'
-              stroke='#fff'
-            ></polyline>
-          </svg>
+          <ArrowLeft />
         </button>
         <button id='right'>
-          <svg
-            role='img'
-            focusable='false'
-            height='24'
-            width='24'
-            viewBox='0 0 24 24'
-            class='Svg-sc-1usfroi-0 jUuLJy _6fe5d5efc9b4a07d5c424071ac7cdacb-scss'
-          >
-            <polyline
-              points='8 4 17 12 8 20'
-              fill='none'
-              stroke='#fff'
-            ></polyline>
-          </svg>
+          <ArrowRight />
         </button>
       </nav>
       <div className='topbar__action'>
