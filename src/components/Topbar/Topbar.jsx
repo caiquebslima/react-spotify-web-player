@@ -1,5 +1,5 @@
-import ArrowLeft from '../../icons/ArrowLeft';
-import ArrowRight from '../../icons/ArrowRight';
+import ArrowLeft from '../../assets/ArrowLeft';
+import ArrowRight from '../../assets/ArrowRight';
 import './Topbar.scss';
 
 export default function Topbar() {

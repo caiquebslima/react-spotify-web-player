@@ -38,10 +38,22 @@
       }
     }
   }
+  h3 {
+    margin-left: 16px;
+    font-size: 14px;
+  }
   &__playlists {
-    h3 {
-      margin-left: 16px;
-      font-size: 14px;
+    border-top: 1px solid #282828;
+
+    width: 100%;
+    height: 287px;
+    overflow-y: scroll;
+
+    li {
+      line-height: 22px;
+      padding: 5px 24px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
   }
 }
