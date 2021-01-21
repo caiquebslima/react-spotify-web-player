@@ -20,8 +20,11 @@
   &__nav {
     padding: 0 8px;
     li {
+      display: flex;
+      align-items: center;
       padding: 0 16px;
       height: 40px;
+      color: #b3b3b3;
       .nav-button {
         width: 100%;
         .icon {
@@ -36,11 +39,20 @@
           font-weight: 700;
         }
       }
+      &:first-child {
+        background-color: #282828;
+        color: #fff;
+      }
     }
   }
   h3 {
-    margin-left: 16px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    margin-left: 24px;
   }
   &__playlists {
     border-top: 1px solid #282828;
@@ -50,10 +62,15 @@
     overflow-y: scroll;
 
     li {
-      line-height: 22px;
-      padding: 5px 24px;
-      white-space: nowrap;
       text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0.015em;
+      padding: 8px 24px;
+      color: #b3b3b3;
+      font-weight: 400;
     }
   }
 }
