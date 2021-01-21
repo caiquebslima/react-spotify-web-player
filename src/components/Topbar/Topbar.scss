@@ -10,10 +10,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 32px;
-  &__nav button {
-    padding: 5px 10px;
-    color: #fff;
+  &__nav {
     display: flex;
+    button {
+      padding: 5px 10px;
+      color: #fff;
+    }
   }
   &__action button {
     border-radius: 23px;
