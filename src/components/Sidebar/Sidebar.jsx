@@ -75,34 +75,36 @@ export default function Sidebar() {
       <div className='sidebar__playlists'>
         <ul>
           <li>
-            <a href='http://localhost:3000/'>Playlist</a>
+            <a href='http://localhost:3000/'>Black Country New Road</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Discover Weekly</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Release Radar</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Your Top 20 Songs in 2020</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>
+              Introduction to Modern Post Punk
+            </a>
           </li>
           <li>
             <a href='http://localhost:3000/'>Playlist</a>
           </li>
           <li>
-            <a href='http://localhost:3000/'>Playlist</a>
+            <a href='http://localhost:3000/'>Smooth Jazz</a>
           </li>
           <li>
-            <a href='http://localhost:3000/'>Playlist</a>
+            <a href='http://localhost:3000/'>Blackgaze</a>
           </li>
           <li>
-            <a href='http://localhost:3000/'>Playlist</a>
+            <a href='http://localhost:3000/'>Math Rock</a>
           </li>
           <li>
-            <a href='http://localhost:3000/'>Playlist</a>
-          </li>
-          <li>
-            <a href='http://localhost:3000/'>Playlist</a>
-          </li>
-          <li>
-            <a href='http://localhost:3000/'>Playlist</a>
-          </li>
-          <li>
-            <a href='http://localhost:3000/'>Playlist</a>
-          </li>
-          <li>
-            <a href='http://localhost:3000/'>Playlist</a>
+            <a href='http://localhost:3000/'>Dreamy Ballads</a>
           </li>
         </ul>
       </div>

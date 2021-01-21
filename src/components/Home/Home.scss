@@ -9,12 +9,20 @@
   overflow-y: auto;
   color: #fff;
   &__title {
-    background: green;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
     padding: 5px 20px;
+    span {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.1em;
+      white-space: nowrap;
+      color: #b3b3b3;
+    }
   }
   &__content {
     display: grid;
@@ -29,6 +37,7 @@
       padding: 16px;
       background: #181818;
       &__cover {
+        margin-bottom: 16px;
         img {
           border-radius: 4px;
           object-fit: cover;
@@ -37,10 +46,25 @@
       }
       &__text {
         min-height: 62px;
+
         &-title {
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: normal;
+          text-transform: none;
+        }
+        p {
+          margin-top: 4px;
+          color: #b3b3b3;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: normal;
+          text-transform: none;
         }
       }
     }

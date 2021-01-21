@@ -39,8 +39,13 @@
     }
   }
   h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b3b3b3;
     margin-left: 16px;
-    font-size: 14px;
   }
   &__playlists {
     border-top: 1px solid #282828;
@@ -50,10 +55,15 @@
     overflow-y: scroll;
 
     li {
-      line-height: 22px;
-      padding: 5px 24px;
-      white-space: nowrap;
       text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0.015em;
+      padding: 8px 24px;
+      color: #b3b3b3;
+      font-weight: 400;
     }
   }
 }
