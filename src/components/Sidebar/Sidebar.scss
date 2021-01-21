@@ -20,8 +20,11 @@
   &__nav {
     padding: 0 8px;
     li {
+      display: flex;
+      align-items: center;
       padding: 0 16px;
       height: 40px;
+      color: #b3b3b3;
       .nav-button {
         width: 100%;
         .icon {
@@ -36,6 +39,10 @@
           font-weight: 700;
         }
       }
+      &:first-child {
+        background-color: #282828;
+        color: #fff;
+      }
     }
   }
   h3 {
@@ -45,7 +52,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #b3b3b3;
-    margin-left: 16px;
+    margin-left: 24px;
   }
   &__playlists {
     border-top: 1px solid #282828;

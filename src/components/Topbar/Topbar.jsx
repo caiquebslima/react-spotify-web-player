@@ -4,7 +4,7 @@ import './Topbar.scss';
 
 export default function Topbar() {
   return (
-    <div className='topbar'>
+    <header className='topbar'>
       <nav className='topbar__nav'>
         <button id='left'>
           <ArrowLeft />
@@ -24,6 +24,6 @@ export default function Topbar() {
           <span>Caique Lima</span>
         </button>
       </div>
-    </div>
+    </header>
   );
 }
