@@ -13,6 +13,7 @@
   &__nav button {
     padding: 5px 10px;
     color: #fff;
+    display: flex;
   }
   &__action button {
     border-radius: 23px;
@@ -38,7 +39,7 @@
       }
     }
     span {
-      padding: 0 5px;
+      padding: 0 10px;
       color: #fff;
       font-size: 14px;
       font-weight: 700;
