@@ -56,10 +56,10 @@
   }
   &__playlists {
     border-top: 1px solid #282828;
-
     width: 100%;
-    height: 287px;
+    min-height: 287px;
     overflow-y: scroll;
+    max-height: 500px;
 
     li {
       text-overflow: ellipsis;

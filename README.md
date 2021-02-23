@@ -4,6 +4,8 @@
 
 ## About the project
 
+https://spotify-webplayer-react.herokuapp.com/
+
 This project has the purpose of recreating the Spotify web player layout as a study of HTML and CSS Structure.  
 It was created with the create-react-app template.
 
