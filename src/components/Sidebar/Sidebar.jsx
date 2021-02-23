@@ -106,6 +106,27 @@ export default function Sidebar() {
           <li>
             <a href='http://localhost:3000/'>Dreamy Ballads</a>
           </li>
+          <li>
+            <a href='http://localhost:3000/'>Stoner Rock</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Discover Weekly</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Release Radar</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>New Artists</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Detroit, MI</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>New Post Punk</a>
+          </li>
+          <li>
+            <a href='http://localhost:3000/'>Underground Brasileiro</a>
+          </li>
         </ul>
       </div>
     </nav>
